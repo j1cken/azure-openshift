@@ -52,7 +52,7 @@
 
   },
   "variables": {
-    "baseTemplateUrl": "https://raw.githubusercontent.com/derdanu/azure-openshift/rhel/",
+    "baseTemplateUrl": "https://raw.githubusercontent.com/j1cken/azure-openshift/rhel/",
     "baseVMachineTemplateUriInfranode": "[concat(variables('baseTemplateUrl'), 'infranode.json')]",
     "baseVMachineTemplateUriNode": "[concat(variables('baseTemplateUrl'), 'node.json')]",
     "baseVMachineTemplateUriMaster": "[concat(variables('baseTemplateUrl'), 'master.json')]",
@@ -88,7 +88,7 @@
       "offer": "RHEL",
       "sku": "7.2",
       "version": "latest"
-    }  
+    }
   },
   "resources": [
     {
@@ -322,4 +322,3 @@
     }
   }
 }
-
